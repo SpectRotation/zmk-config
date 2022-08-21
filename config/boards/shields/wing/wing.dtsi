@@ -7,6 +7,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
+
 	chosen {
 		zmk,kscan = &kscan0;
 		zmk,matrix_transform = &default_transform;
@@ -27,7 +28,6 @@ RC(0,12) RC(0,13) RC(0,14) RC(0,15) RC(0,16) RC(0,17)  RC(0,38) RC(0,37) RC(0,36
 	kscan0: kscan {
 		compatible = "zmk,kscan-gpio-direct";
 		label = "KSCAN";
-
 		input-gpios
 			= <&pro_micro 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
 			, <&pro_micro 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
@@ -51,9 +51,5 @@ RC(0,12) RC(0,13) RC(0,14) RC(0,15) RC(0,16) RC(0,17)  RC(0,38) RC(0,37) RC(0,36
 			, <&pro_micro 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
 			, <&pro_micro 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
 			;
-		
 	};
-
-
-
 };
