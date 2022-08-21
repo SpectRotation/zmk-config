@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "cradio.dtsi"
+#include "wing.dtsi"
 
 &default_transform {
 	col-offset = <21>;
