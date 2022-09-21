@@ -14,19 +14,19 @@
 
         default_layer {
             bindings = <
-   &kp ESC   &kp Q &kp W &kp E &kp R &kp T    &kp Y &kp U  &kp I     &kp O   &kp P    &kp LPAR
-   &kp TAB   &kp A &kp S &kp D &kp F &kp G    &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B    &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RPAR
+   &kp TAB       &kp Q &kp W &kp E &kp R &kp T    &kp Y &kp U  &kp I     &kp O   &kp P    &kp LPAR
+   &kp LSHIFT    &kp A &kp S &kp D &kp F &kp G    &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
+   &kp LCTRL     &kp Z &kp X &kp C &kp V &kp B    &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RPAR
                   &kp LCTRL &kp SPACE &mo 1   &kp RET &kp BSPC &mo 2
             >;
         };
 
         upper_layer {
             bindings = <
-   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-                          	        &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+   &kp ESC    &kp N1       &kp N7       &kp N8       &kp N9       &kp PLUS         &kp N6   &kp N7   &kp N8 &kp N9    &kp PSCRN &kp BSPC
+   &bt BT_CLR &bt BT_SEL 0 &kp N4       &bt N5       &kp N6       &kp MINUS        &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
+   &kp LSHFT  &trans       &kp N1       &kp N2       &kp N3       &trans         &trans   &trans   &trans &trans    &trans &trans
+                          	        &kp LGUI     &kp N0       &kp SPACE      &kp RET  &trans   &kp RALT
             >;
         };
 
